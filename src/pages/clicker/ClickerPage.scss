@@ -1,0 +1,26 @@
+.clicker-body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.clicker-counter-window {
+    font-family: "Inter";
+    font-size: 64px;
+}
+
+.clicker-button {
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-family: "Inter";
+}
